@@ -1,0 +1,31 @@
+.upcoming-projects-section {
+    margin-bottom: 3rem;
+  }
+  
+  .project-list {
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-item {
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-item h5 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    color: #333;
+  }
+  
+  .project-item p {
+    color: #6c757d;
+    font-size: 0.95rem;
+    margin-bottom: 0;
+  }
+  
+  .view-all-btn {
+    padding: 0.5rem 1.5rem;
+    font-weight: 500;
+    border: 1px solid #dee2e6;
+    background-color: #f8f9fa;
+  }

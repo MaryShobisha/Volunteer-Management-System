@@ -1,0 +1,180 @@
+.balance-card {   
+  background-color: #f8f9fa;   
+  border-radius: 8px;   
+  padding: 24px;   
+  max-width: 400px; 
+}  
+
+.balance-title {   
+  color: #6c757d;   
+  font-size: 18px;   
+  margin-bottom: 16px; 
+}  
+
+.balance-text {   
+  margin-bottom: 20px;   
+  font-size: 16px; 
+}  
+
+.history-btn {   
+  background-color: #5d5fef;   
+  border-color: #5d5fef;   
+  padding: 8px 16px;   
+  font-weight: 500;   
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}  
+
+.section-title {   
+  font-size: 20px;   
+  font-weight: 600;   
+  margin-bottom: 20px; 
+}  
+
+.charity-card {   
+  background-color: #f8f9fa;   
+  border-radius: 8px;   
+  padding: 24px;   
+  height: 100%; 
+}  
+
+.charity-category {   
+  color: #6c757d;   
+  font-size: 15px;   
+  margin-bottom: 10px; 
+}  
+
+.charity-name {   
+  font-weight: 600;   
+  margin-bottom: 12px; 
+}  
+
+.charity-description {   
+  color: #6c757d;   
+  margin-bottom: 20px;   
+  font-size: 15px; 
+}  
+
+.select-btn {   
+  background-color: #5d5fef;   
+  border-color: #5d5fef;   
+  padding: 6px 16px;   
+  font-size: 14px;   
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}  
+
+.donation-details {   
+  max-width: 800px; 
+}  
+
+.form-field {   
+  background-color: #f8f9fa;   
+  border: 1px solid #dee2e6;   
+  padding: 12px;   
+  border-radius: 6px; 
+}  
+
+.form-field:disabled {   
+  background-color: #f8f9fa;   
+  opacity: 1; 
+}  
+
+.donation-summary {   
+  max-width: 800px; 
+}  
+
+.charity-name {   
+  font-weight: 500;   
+  margin-bottom: 8px; 
+}  
+
+.donation-amount {   
+  color: #5d5fef;   
+  font-size: 24px;   
+  font-weight: 600;   
+  margin-bottom: 24px; 
+}  
+
+.remaining-label {   
+  color: #6c757d;   
+  margin-bottom: 5px; 
+}  
+
+.remaining-amount {   
+  font-size: 20px;   
+  font-weight: 500; 
+}  
+
+.confirm-btn {   
+  background-color: #5d5fef;   
+  border-color: #5d5fef;   
+  padding: 10px 32px;   
+  font-weight: 500;   
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+
+/* History Modal Styles - Added, not modifying existing styles */
+.modal-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.modal-title {
+  color: #212529;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.modal-footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #5d5fef;
+  border-color: #5d5fef;
+  padding: 8px 20px;
+  font-weight: 500;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* Table styles for history */
+.table {
+  margin-bottom: 0;
+}
+
+.table thead th {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  font-weight: 600;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table td {
+  vertical-align: middle;
+  color: #212529;
+  font-size: 15px;
+}
+
+/* Selected charity state */
+.charity-card.selected {
+  border: 2px solid #5d5fef;
+  box-shadow: 0px 4px 8px rgba(93, 95, 239, 0.2);
+}
+
+.selected-indicator {
+  background-color: #5d5fef;
+  color: white;
+  padding: 6px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+/* Alert style for donation success */
+.alert-success {
+  background-color: #d1fae5;
+  border-color: #a7f3d0;
+  color: #065f46;
+  border-radius: 8px;
+  padding: 16px;
+}

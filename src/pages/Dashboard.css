@@ -1,0 +1,12 @@
+.dashboard-container {
+    scrollbar-width: none;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  
+  .dashboard-welcome {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #222;
+  }

@@ -1,0 +1,90 @@
+.create-project-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  
+  .create-project-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    margin-bottom: 2rem;
+  }
+
+  .scrollable{
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    height: 80vh;
+  }
+  
+  .page-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .submit-btn {
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    background-color: #007bff;
+    border: none;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0069d9;
+    transform: translateY(-2px);
+  }
+  
+  .cancel-btn {
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    background-color: #6c757d;
+    border: none;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Form styling */
+  .form-label {
+    font-weight: 600;
+    color: #495057;
+  }
+  
+  .form-control:focus, .form-select:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  .form-control, .form-select {
+    border-radius: 6px;
+    padding: 0.625rem 0.75rem;
+    border: 1px solid #ced4da;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .create-project-container {
+      padding-top: 1rem;
+    }
+    
+    .form-actions {
+      flex-direction: column-reverse;
+    }
+    
+    .submit-btn, .cancel-btn {
+      width: 100%;
+    }
+  }

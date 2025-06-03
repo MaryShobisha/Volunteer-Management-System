@@ -1,0 +1,32 @@
+.category-section {
+  margin-bottom: 3rem;
+}
+
+.category-card {
+  min-height: 200px;
+  border-radius: 10px;
+  background-color: #f5f7fa !important;
+}
+
+.category-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.category-description {
+  color: #6c757d;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.browse-btn {
+  padding: 0.4rem 1.5rem;
+  font-weight: 500;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  border-radius: 10px;
+}
+
+.browse-btn:hover {
+  text-shadow: 0px 4px 4px #00000040;
+}

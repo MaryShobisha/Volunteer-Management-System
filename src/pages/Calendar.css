@@ -1,0 +1,313 @@
+/* Main container styling */
+.calendar-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  
+  .calendar-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: #222;
+  }
+  
+  /* Calendar card styling */
+  .calendar-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Custom calendar styling */
+  .custom-calendar {
+    width: 100%;
+    border: none;
+    font-family: inherit;
+  }
+  
+  .react-calendar__tile {
+    position: relative;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 8px;
+  }
+  
+  .react-calendar__tile--now {
+    background-color: rgba(255, 220, 40, 0.15) !important;
+  }
+  
+  .react-calendar__tile--active {
+    background-color: rgba(0, 123, 255, 0.15) !important;
+    color: #222 !important;
+  }
+  
+  .react-calendar__tile--active:enabled:hover,
+  .react-calendar__tile--active:enabled:focus {
+    background-color: rgba(0, 123, 255, 0.25) !important;
+  }
+  
+  .react-calendar__month-view__weekdays__weekday {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: #666;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  
+  .react-calendar__month-view__weekdays__weekday abbr {
+    text-decoration: none;
+  }
+  
+  .react-calendar__navigation button {
+    min-width: 44px;
+    background: none;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .react-calendar__navigation__label__labelText {
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+  
+  /* Project indicators */
+  .project-indicator-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+    margin-top: 5px;
+  }
+  
+  .project-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+  
+  .project-indicator.environment {
+    background-color: #28a745;
+  }
+  
+  .project-indicator.education {
+    background-color: #17a2b8;
+  }
+  
+  .project-indicator.healthcare {
+    background-color: #dc3545;
+  }
+  
+  /* Calendar tile with project styling */
+  .has-project {
+    font-weight: 600;
+  }
+  
+  .has-environment {
+    border-top: 3px solid #28a745;
+  }
+  
+  .has-education {
+    border-top: 3px solid #17a2b8;
+  }
+  
+  .has-healthcare {
+    border-top: 3px solid #dc3545;
+  }
+  
+  /* Category legend styling */
+  .category-legend {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 0.5rem;
+  }
+  
+  .legend-title {
+    margin-right: 1rem;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .legend-color {
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+    border-radius: 3px;
+  }
+  
+  .legend-color.environment {
+    background-color: #28a745;
+  }
+  
+  .legend-color.education {
+    background-color: #17a2b8;
+  }
+  
+  .legend-color.healthcare {
+    background-color: #dc3545;
+  }
+  
+  /* Events card styling */
+  .events-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    height: 100%;
+  }
+  
+  .selected-date {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.75rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .events-list {
+    max-height: 500px;
+    overflow-y: auto;
+    padding-right: 0.5rem;
+  }
+  
+  .events-list::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .events-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+  }
+  
+  .events-list::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 10px;
+  }
+  
+  .events-list::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+  }
+  
+  /* Event item styling */
+  .event-item {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .event-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-badge {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.75rem;
+  }
+  
+  .event-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .event-description {
+    color: #666;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .event-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .event-detail {
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    color: #555;
+  }
+  
+  .event-detail i {
+    margin-right: 0.5rem;
+    color: #666;
+  }
+  
+  .sign-up-btn {
+    background-color: #007bff;
+    border: none;
+    transition: all 0.2s ease;
+    font-weight: 600;
+    padding: 0.4rem 1rem;
+  }
+  
+  .sign-up-btn:hover {
+    background-color: #0069d9;
+    transform: translateY(-1px);
+  }
+  
+  .no-events {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: #777;
+  }
+  
+  .no-events p:first-child {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Category filter styling */
+  .category-filter {
+    border-radius: 6px;
+    padding: 0.625rem 0.75rem;
+    border: 1px solid #ced4da;
+  }
+  
+  .category-filter:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 991px) {
+    .events-card {
+      margin-top: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .calendar-title {
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .react-calendar__tile {
+      height: 55px;
+    }
+    
+    .category-legend {
+      margin-top: 1rem;
+    }
+  }

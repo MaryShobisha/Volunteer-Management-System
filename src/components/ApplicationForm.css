@@ -1,0 +1,76 @@
+/* ApplicationForm.css */
+.breadcrumb-nav {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  .breadcrumb-nav a {
+    color: #6c757d;
+    text-decoration: none;
+  }
+  
+  .breadcrumb-nav a:hover {
+    color: #0d6efd;
+    text-decoration: underline;
+  }
+  
+  .form-field {
+    background-color: #f5f7fa;
+    border: 1px solid #e4e9f0;
+    border-radius: 8px;
+    padding: 12px;
+  }
+  
+  .form-field:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    border-color: #86b7fe;
+  }
+  
+  textarea.form-field {
+    min-height: 100px;
+  }
+  
+  .upload-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-file-upload {
+    position: relative;
+  }
+  
+  .upload-label {
+    background-color: #f5f7fa;
+    color: #4361ee;
+    padding: 10px 20px;
+    border: 1px solid #e4e9f0;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+  
+  .upload-label:hover {
+    background-color: #e7eaf4;
+  }
+  
+  .submit-btn {
+    background-color: #4361ee;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 40px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    min-width: 200px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #3651d4;
+    transform: translateY(-2px);
+  }
+  
+  .availability-section h4 {
+    color: #343a40;
+    font-weight: 600;
+  }

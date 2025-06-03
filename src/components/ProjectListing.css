@@ -1,0 +1,79 @@
+
+
+.breadcrumb-nav {
+  color: #7C838A;
+  font-size: 0.9rem;
+}
+
+.breadcrumb-nav a {
+  color: #7C838A;
+  text-decoration: none;
+}
+
+.breadcrumb-nav a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.category-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.2;
+}
+
+.available-projects-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-top: 1rem;
+}
+
+.project-card {
+  background-color: #F8F9FA;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #212529;
+}
+
+.project-description {
+  color: #6c757d;
+  font-size: 0.95rem;
+}
+
+.apply-btn {
+  background-color: #4E6AF3;
+  border: none;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.details-btn {
+  border-color: #dee2e6;
+  color: #495057;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.view-more-btn {
+  padding: 0.6rem 2rem;
+  font-weight: 500;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
